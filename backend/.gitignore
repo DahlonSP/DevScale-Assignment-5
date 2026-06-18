@@ -1,0 +1,52 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# --- Virtual Environment ---
+.venv/
+venv/
+env/
+
+# --- uv ---
+uv.lock
+
+# --- FastAPI / Uvicorn ---
+*.db
+instance/
+*.sqlite3
+
+# --- Alembic ---
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# --- Celery ---
+celerybeat-schedule
+celerybeat.pid
+
+# --- Cache & Temp ---
+.cache/
+.tmp/
+temp/
+*.tmp
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Uploads / Media ---
+uploads/
+media/
